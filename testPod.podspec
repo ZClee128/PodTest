@@ -4,7 +4,8 @@ Pod::Spec.new do |spec|
   spec.summary      = "测试pod"
 
   spec.description  = <<-DESC
-                   DESC
+                               测试
+                        DESC
 
   spec.homepage     = "https://github.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -58,7 +59,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/testPod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ZClee128/testPod.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -69,8 +70,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = 'testPod'
+#spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
